@@ -42,3 +42,8 @@ You can start the app with `ruby app.rb`
 ### Adding assets
 
 [Explanation](https://share.getcloudapp.com/YEuAXYjO)
+
+### Resoruces
+
+- [Design](https://www.figma.com/file/LAdYG5wMqFFpCYLlZGEHCf/Get-That-Job-Gate-Evaluation?node-id=4%3A20919)
+- [Stories](./stories.md)
