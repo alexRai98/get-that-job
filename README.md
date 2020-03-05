@@ -7,8 +7,8 @@ Get that job is a Sinatra application.
 Sinatra is a library to create web applications with Ruby. We'll learn
 more about it during the next module.
 
-What you need to know now is, sinatra is configured to convert any `.erb` file
-that you add to the `views` folder into, will become a page in the application.
+What you need to know now is tat, sinatra is configured to convert any `.erb` 
+file that you add to the `views` folder into page of the application
 
 ### ERB
 
@@ -47,3 +47,5 @@ You can start the app with `ruby app.rb`
 
 - [Design](https://www.figma.com/file/LAdYG5wMqFFpCYLlZGEHCf/Get-That-Job-Gate-Evaluation?node-id=4%3A20919)
 - [Stories](./stories.md)
+
+**Good luck!**
