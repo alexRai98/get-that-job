@@ -8,9 +8,10 @@
     font-family: "Nunito";
 }
 
-#layout {
+body {
     margin: 0 180px;
     max-width: 1080px;
+    background: #E5E5E5;
 }
 
 nav {
@@ -40,6 +41,7 @@ nav > div a:last-child {
 }
 
 footer {
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
 }
@@ -54,25 +56,14 @@ footer > div p {
 }
 
 footer > div a {
+    margin: 4px 0;
     text-decoration: none;
     color: #7A7A7A;
 }
 
-#copyright {
+aside {
     text-align: center;
     font-size: 14px;
     line-height: 19px;
     color: #73738D;
-}
-
-.tag {
-    font-family: "Nunito";
-    color: white;
-    font-size: 12px;
-    line-height: 20px;
-    display: inline;
-    background: #3C2DFF;
-    border: 1px solid #3C2DFF;
-    border-radius: 4px;
-    padding: 3px 4px;
 }

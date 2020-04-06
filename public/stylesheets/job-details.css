@@ -1,0 +1,49 @@
+#back {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #3C2DFF;
+}
+
+#back img {
+    margin-right: 10px;
+}
+
+#tags {
+    display: flex;
+}
+
+#tags .tag {
+    margin-right: 3px;
+}
+
+.tag {
+    padding: 2.5 5px;
+    color: white;
+    background: #3C2DFF;
+    border: 1px solid #3C2DFF;
+    text-decoration: none;
+}
+
+#apply {
+    display: flex;    
+    justify-content: space-between;
+}
+
+#get {
+    text-decoration: none;
+    background: #3C2DFF;
+    padding: 10px 50px;
+    color: white;
+}
+
+
+#share {
+    display: flex;
+    align-items: center;
+}
+
+#share p {
+    height: 28px;
+    margin-right: 20px;
+}
