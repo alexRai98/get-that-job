@@ -9,18 +9,61 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<header>
-  <nav class="nav">
-    <img class="logo" src="images/logo.png" alt="GetThatJob's logo.">
-    <div class="menu">
-      <a class="menu__link" href="">Help</a>
-      <a class="menu__link" href="">Companies</a>
-      <a class="menu__link" href="">Jobs</a>
-      <a class="menu__button" href="">Sign in</a>
-      <a class="menu__button menu__button--purple" href="">Create an account</a>
-    </div>
-  </nav>
-</header>
 <body>
-<%= yield %>
+  <header>
+    <nav class="nav">
+      <img class="logo" src="images/logo.png" alt="GetThatJob's logo.">
+      <div class="menu">
+        <a class="menu__link" href="">Help</a>
+        <a class="menu__link" href="">Companies</a>
+        <a class="menu__link" href="">Jobs</a>
+        <a class="menu__button" href="">Sign in</a>
+        <a class="menu__button menu__button--color-purple" href="">Create an account</a>
+      </div>
+    </nav>
+  </header>
+  <%= yield %>
+  <footer>
+    <div class="footnotes">
+      <div class="frame">
+        <p class="subtitle">Jobs</p>
+        <ul class="list">
+          <li class="list__item">Software Engineer</li>
+          <li class="list__item">Frontend Engineer</li>
+          <li class="list__item">Codeable Engineer</li>
+          <li class="list__item">Backend Engineer</li>
+          <li class="list__item">Meme Master</li>
+          <li class="list__item">University Dropouts</li>
+        </ul>
+      </div>
+      <div class="frame">
+        <p class="subtitle">Company</p>
+        <ul class="list">
+          <li class="list__item">Blog</li>
+          <li class="list__item">Careers</li>
+          <li class="list__item">Privacy</li>
+          <li class="list__item">About</li>
+        </ul>
+      </div>
+      <div class="frame">
+        <p class="subtitle">Support</p>
+        <ul class="list">
+          <li class="list__item">Documentation</li>
+          <li class="list__item">Security</li>
+          <li class="list__item">Mobility Guide</li>
+          <li class="list__item">FAQs</li>
+        </ul>
+      </div>
+      <div class="frame">
+        <p class="subtitle">Legal</p>
+        <ul class="list">
+          <li class="list__item">Terms of Service</li>
+          <li class="list__item">Privacy Policy</li>
+          <li class="list__item">Cookie Information</li>
+          <li class="list__item">GDPR Commitment</li>
+        </ul>
+      </div>
+    </div>
+    <div class="copyright">©2020 Get That Job</div>
+  </footer>
 </body>
