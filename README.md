@@ -47,5 +47,6 @@ You can start the app with `ruby app.rb`
 
 - [Design](https://www.figma.com/file/LAdYG5wMqFFpCYLlZGEHCf/Get-That-Job-Gate-Evaluation?node-id=4%3A20919)
 - [Stories](./stories.md)
+- [Trello Board with Stories](https://trello.com/b/VJanzZmR/get-that-job)
 
 **Good luck!**
