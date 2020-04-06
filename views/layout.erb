@@ -9,61 +9,51 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body>
-  <header>
-    <nav class="nav">
-      <img class="logo" src="images/logo.png" alt="GetThatJob's logo.">
-      <div class="menu">
-        <a class="menu__link" href="">Help</a>
-        <a class="menu__link" href="">Companies</a>
-        <a class="menu__link" href="">Jobs</a>
-        <a class="menu__button" href="">Sign in</a>
-        <a class="menu__button menu__button--color-purple" href="">Create an account</a>
-      </div>
-    </nav>
-  </header>
-  <%= yield %>
-  <footer>
-    <div class="footnotes">
-      <div class="frame">
-        <p class="subtitle">Jobs</p>
-        <ul class="list">
-          <li class="list__item">Software Engineer</li>
-          <li class="list__item">Frontend Engineer</li>
-          <li class="list__item">Codeable Engineer</li>
-          <li class="list__item">Backend Engineer</li>
-          <li class="list__item">Meme Master</li>
-          <li class="list__item">University Dropouts</li>
-        </ul>
-      </div>
-      <div class="frame">
-        <p class="subtitle">Company</p>
-        <ul class="list">
-          <li class="list__item">Blog</li>
-          <li class="list__item">Careers</li>
-          <li class="list__item">Privacy</li>
-          <li class="list__item">About</li>
-        </ul>
-      </div>
-      <div class="frame">
-        <p class="subtitle">Support</p>
-        <ul class="list">
-          <li class="list__item">Documentation</li>
-          <li class="list__item">Security</li>
-          <li class="list__item">Mobility Guide</li>
-          <li class="list__item">FAQs</li>
-        </ul>
-      </div>
-      <div class="frame">
-        <p class="subtitle">Legal</p>
-        <ul class="list">
-          <li class="list__item">Terms of Service</li>
-          <li class="list__item">Privacy Policy</li>
-          <li class="list__item">Cookie Information</li>
-          <li class="list__item">GDPR Commitment</li>
-        </ul>
-      </div>
+<body id="layout">
+  <nav>
+    <img src="images/logo.png" alt="GetThatJob's logo.">
+    <div>
+      <a href="">Help</a>
+      <a href="">Companies</a>
+      <a href="">Jobs</a>
+      <a href="">Sign in</a>
+      <a href="">Create an account</a>
     </div>
-    <div class="copyright">©2020 Get That Job</div>
+  </nav>
+  <main>
+    <%= yield %>
+  </main>
+  <footer>
+    <div>
+      <p>Jobs</p>
+      <a href="">Software Engineer</a>
+      <a href="">Frontend Engineer</a>
+      <a href="">Codeable Engineer</a>
+      <a href="">Backend Engineer</a>
+      <a href="">Meme Master</a>
+      <a href="">University Dropout</a>
+    </div>
+    <div>
+      <p>Company</p>
+      <a href="">Blog</a>
+      <a href="">Careers</a>
+      <a href="">Privacy</a>
+      <a href="">About</a>
+    </div>
+    <div>
+      <p>Support</p>
+      <a href="">Documentation</a>
+      <a href="">Security</a>
+      <a href="">Mobility Guide</a>
+      <a href="">FAQs</a>
+    </div>
+    <div>
+      <p>Legal</p>
+      <a href="">Terms of Service</a>
+      <a href="">Privacy Policy</a>
+      <a href="">Cookie Information</a>
+      <a href="">GDPR Commitment</a>
+    </div>
   </footer>
+  <div id="copyright">©2020 Get That Job</div>
 </body>
