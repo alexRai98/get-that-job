@@ -46,7 +46,7 @@ that interest me
 - And all the jobs links send me to the Job Listing page (/jobs)
 - And the FAQs link send me to the faq page (/faq)
 
-###Pepe can see the Hero
+### Pepe can see the Hero
 As Pepe
 I want to see the Hero section in the home page (or landing page)
 So I can quickly know what the site is a bout
