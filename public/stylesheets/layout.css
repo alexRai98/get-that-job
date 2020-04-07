@@ -102,7 +102,7 @@ a {
 }
 
 .tag {
-    margin: 0 5px;
+    margin-right: 5px;
     padding: 3px 4px;
     color: white;
     background: #3C2DFF;
@@ -111,6 +111,6 @@ a {
     font-weight: bold;
 }
 
-.tag--red {
+.tag--color-red {
     background: #FF0D0D;
 }
