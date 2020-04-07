@@ -4,43 +4,113 @@
     box-sizing: border-box;
 }
 
-.nav {
+* {
+    font-family: "Nunito";
+}
+
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 100px;
-    padding: 0 25px;
 }
 
-.menu {
-    font-family: "Nunito";
+nav > div {
+    display: flex;
 }
 
-.menu
-
-.menu__link {
-    margin: 10px;
-    padding: 10px;
-    text-decoration: none;
+nav > div a {
     color: black;
     font-weight: bold;
-    font-size: 16px;
+    margin: 0 10px;
 }
 
-.menu__button {
-    margin: 10px;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    border: 2px solid black;
-    font-size: 13px;
+nav > div a:nth-child(n + 5) {
+    text-align: center;
     text-transform: uppercase;
-    line-height: 18px;
-    padding: 5px;
+    border: 2px solid black;
     border-radius: 4px;
+    padding: 2.5px 10px;
 }
 
-.menu__button--purple {
+nav > div a:last-child {
     color: #3C2DFF;
     border-color: #3C2DFF;
+}
+
+footer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer > div {
+    display: flex;
+    flex-direction: column;
+}
+
+footer > div p {
+    font-size: 18px;
+}
+
+footer > div a {
+    margin: 4px 0;
+    color: #7A7A7A;
+}
+
+aside {
+    text-align: center;
+    font-size: 14px;
+    line-height: 19px;
+    color: #73738D;
+}
+
+main {
+    background: #F7FAFC;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+h4 {
+    margin: 10px 0;
+}
+
+p {
+    margin: 10px 0;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.separator {
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+.button {
+    font-weight: bold;
+    background: #3C2DFF;
+    padding: 10px 50px;
+    margin: 15px 0;
+    color: white;
+}
+
+.tag {
+    margin: 0 5px;
+    padding: 3px 4px;
+    color: white;
+    background: #3C2DFF;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.tag--red {
+    background: #FF0D0D;
 }
