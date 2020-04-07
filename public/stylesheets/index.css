@@ -9,7 +9,7 @@
   align-content: center;
   justify-content: center;
   background: #f7fafc;
-  padding-bottom: 18px;
+  padding: 0px 25px 18px 25px;
 }
 .hero-about {
   grid-area: about;
@@ -30,6 +30,27 @@
   grid-area: img;
 }
 
+@media screen and (max-width:768px){
+  .hero{
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "about about img";
+  }
+  .hero-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+@media screen and (max-width:425px){
+  .hero{
+    grid-template-columns: 1fr;
+    grid-template-areas: "img""about";
+  }
+  .hero-img {
+    height: 300px;
+  }
+}
+
 /* sectionJOb */
 .findJob {
   display: grid;
@@ -39,7 +60,7 @@
   align-content: center;
   justify-content: center;
   grid-gap: 0px 70px;
-  padding: 54px 0px;
+  padding: 54px 25px;
 }
 .findJob-description {
   grid-area: description;
@@ -66,8 +87,13 @@
   display: flex;
   align-items: center;
   background: #ffffff;
-  height: 82px;
+  height: 82px; 
   width: 447px;
+  padding-right: 15px;
+}
+.findJob-target-empresa , .findJob-target-tecno{
+  display: flex;
+  align-items: center;
 }
 .findJob-taget-logo {
   margin-left: 20px;
@@ -101,12 +127,26 @@
   font-size: 16px;
   color: #718096;
 }
+@media screen and (max-width:768px){
+  .findJob {
+    grid-template-columns: 1fr;
+    grid-template-areas: "description"
+                          "target";
+    grid-gap: 20px 0px;
+  }
+  .findJob-target{
+    width: auto;
+    justify-content: space-between;
+  }
+  
+}
 /* sectionTestimonies */
 .container {
   font-family: "Overpass", sans-serif;
   display: grid;
   grid-template-columns: minmax(auto, 1090px);
   justify-content: center;
+  padding: 0px 25px;
 }
 .testimonies {
   display: flex;
@@ -134,23 +174,36 @@
   line-height: 24px;
   font-weight: normal;
 }
+@media screen and (max-width:425px){
+  .testimonies-title{
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .br{
+    display: none;
+  }
+}
 /* sectionContact */
 .contact {
   font-family: "Overpass", sans-serif;
   display: grid;
   grid-template-columns: minmax(auto, 511px) minmax(auto, 511px);
-  grid-template-areas: "info form";
+  grid-template-areas: "info form" "referen form";
   align-content: center;
   justify-content: center;
   background: #f7fafc;
-  padding-top: 100px;
-  padding-bottom: 142px;
+  padding: 100px 25px 142px 25px;
 }
 .contact-information {
   grid-area: info;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  
+}
+.contact-referen{
+  grid-area: referen;
+  display: flex;
+  align-items: flex-end;
 }
 .contact-span{
     text-transform: uppercase;
@@ -197,4 +250,20 @@
     font-size: 15px;
     border: 1px solid #000000;
     border-radius: 5px;
+}
+@media screen and (max-width:768px){
+  .contact {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width:425px){
+  .contact {
+    grid-template-columns: 1fr;
+    grid-template-areas: "info" "form" "referen";
+  }
+  .contact-information{
+    margin-bottom: 25px;
+  }
+  .contact-referen{
+    margin-top: 25px;
 }
