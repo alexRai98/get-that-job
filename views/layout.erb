@@ -10,50 +10,52 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body>
-  <nav>
-    <a href="index"><img src="images/logo.png" alt="GetThatJob's logo."></a>
-    <div>
-      <a href="">Help</a>
-      <a href="">Companies</a>
-      <a href="jobs">Jobs</a>
-      <a href="faq">FAQ</a>
-      <a href="login">Sign in</a>
-      <a href="signup">Create an account</a>
+<body class="layout_body">
+  <nav class="layout_nav">
+    <a class="nav_logo"  href="index"><img src="images/logo.png" alt="GetThatJob's logo."></a>
+    <div class="nav_links">
+      <a class="nLinks" href="#">Help</a>
+      <a class="nLinks" href="#">Companies</a>
+      <a class="nLinks" href="jobs">Jobs</a>
+      <a class="nLinks" href="faq">FAQ</a>
+    </div>
+    <div class="nav_account">
+      <a class="aLinks" href="login">Sign in</a>
+      <a class="aLinks" href="signup">Create an account</a>
     </div>
   </nav>
   <%= yield %>
-  <footer>
-    <div>
-      <p>Jobs</p>
-      <a href="">Software Engineer</a>
-      <a href="">Frontend Engineer</a>
-      <a href="">Codeable Engineer</a>
-      <a href="">Backend Engineer</a>
-      <a href="">Meme Master</a>
-      <a href="">University Dropout</a>
+  <footer class="Layout_footer">
+    <div class="footer_list">
+      <p class="list_title">Jobs</p>
+      <a class="fLink" href="">Software Engineer</a>
+      <a class="fLink" href="">Frontend Engineer</a>
+      <a class="fLink" href="">Codeable Engineer</a>
+      <a class="fLink" href="">Backend Engineer</a>
+      <a class="fLink" href="">Meme Master</a>
+      <a class="fLink" href="">University Dropout</a>
     </div>
-    <div>
-      <p>Company</p>
-      <a href="">Blog</a>
-      <a href="">Careers</a>
-      <a href="">Privacy</a>
-      <a href="">About</a>
+    <div class="footer_list">
+      <p class="list_title">Company</p>
+      <a class="fLink" href="">Blog</a>
+      <a class="fLink" href="">Careers</a>
+      <a class="fLink" href="">Privacy</a>
+      <a class="fLink" href="">About</a>
     </div>
-    <div>
-      <p>Support</p>
-      <a href="">Documentation</a>
-      <a href="">Security</a>
-      <a href="">Mobility Guide</a>
-      <a href="">FAQs</a>
+    <div class="footer_list">
+      <p class="list_title">Support</p>
+      <a class="fLink" href="">Documentation</a>
+      <a class="fLink" href="">Security</a>
+      <a class="fLink" href="">Mobility Guide</a>
+      <a class="fLink" href="">FAQs</a>
     </div>
-    <div>
-      <p>Legal</p>
-      <a href="">Terms of Service</a>
-      <a href="">Privacy Policy</a>
-      <a href="">Cookie Information</a>
-      <a href="">GDPR Commitment</a>
+    <div class="footer_list">
+      <p class="list_title">Legal</p>
+      <a class="fLink" href="">Terms of Service</a>
+      <a class="fLink" href="">Privacy Policy</a>
+      <a class="fLink" href="">Cookie Information</a>
+      <a class="fLink" href="">GDPR Commitment</a>
     </div>
   </footer>
-  <aside>©2020 Get That Job</aside>
+  <p class="copyright">©2020 Get That Job</p>
 </body>
