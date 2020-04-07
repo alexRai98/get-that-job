@@ -29,6 +29,13 @@
 .hero-img {
   grid-area: img;
 }
+.hero-btn{
+  width: 217px;
+  padding: 10px 10px;
+  font-size: 13px;
+  text-align: center;
+  text-transform: uppercase;
+}
 
 @media screen and (max-width:768px){
   .hero{
