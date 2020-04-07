@@ -1,0 +1,256 @@
+.login-div {
+    margin-top: 132px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    font-family: Nunito;
+    width: min-content; }
+    .login-div .title {
+      margin: 0px;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 32px;
+      line-height: 44px;
+      color: #000000;
+      text-align: center; }
+    .login-div .form_label {
+      text-align: left;
+      font-size: 14px;
+      line-height: 22px; }
+    .login-div .form_input {
+      background: #ffffff;
+      border: 1px solid #d9d9d9;
+      box-sizing: border-box;
+      border-radius: 4px;
+      font-size: 16px;
+      line-height: 24px;
+      width: 256px; }
+    .login-div .form_btn {
+      text-align: center;
+      width: -webkit-fill-available;
+      height: 40px;
+      display: table;
+      background: #3c2dff;
+      border-radius: 4px;
+      font-size: 16px;
+      line-height: 24px;
+      color: #ffffff;
+      margin: 4px 0px; }
+    .login-div .form_link {
+      text-align: center;
+      margin: 0px auto;
+      display: table;
+      font-size: 14px;
+      line-height: 22px;
+      color: #3c2dff;
+      text-decoration: none;
+      margin-top: 8px; }
+  
+  .signup-div {
+    margin-top: 132px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    font-family: Nunito;
+    width: min-content; }
+    .signup-div .title {
+      margin: 0px;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 32px;
+      line-height: 44px;
+      color: #000000;
+      text-align: center; }
+    .signup-div .form_label {
+      text-align: left;
+      font-size: 14px;
+      line-height: 22px; }
+    .signup-div .form_input {
+      background: #ffffff;
+      border: 1px solid #d9d9d9;
+      box-sizing: border-box;
+      border-radius: 4px;
+      font-size: 16px;
+      line-height: 24px;
+      width: 256px; }
+    .signup-div .form_btn {
+      text-align: center;
+      width: -webkit-fill-available;
+      height: 40px;
+      display: table;
+      background: #3c2dff;
+      border-radius: 4px;
+      font-size: 16px;
+      line-height: 24px;
+      color: #ffffff;
+      margin: 4px 0px; }
+    .signup-div .form_link {
+      text-align: center;
+      margin: 0px auto;
+      display: table;
+      font-size: 14px;
+      line-height: 22px;
+      color: #3c2dff;
+      text-decoration: none;
+      margin-top: 8px; }
+  
+  .Forgot_Password-div {
+    margin-top: 132px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    font-family: Nunito;
+    width: min-content; }
+    .Forgot_Password-div .title {
+      margin: 0px;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 32px;
+      line-height: 44px;
+      color: #000000;
+      text-align: center; }
+    .Forgot_Password-div .form_label {
+      text-align: left;
+      font-size: 14px;
+      line-height: 22px; }
+    .Forgot_Password-div .form_input {
+      background: #ffffff;
+      border: 1px solid #d9d9d9;
+      box-sizing: border-box;
+      border-radius: 4px;
+      font-size: 16px;
+      line-height: 24px;
+      width: 256px; }
+    .Forgot_Password-div .form_btn {
+      text-align: center;
+      width: -webkit-fill-available;
+      height: 40px;
+      display: table;
+      background: #3c2dff;
+      border-radius: 4px;
+      font-size: 16px;
+      line-height: 24px;
+      color: #ffffff;
+      margin: 4px 0px; }
+  
+  .Recovery-div {
+    margin-top: 132px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    font-family: Nunito;
+    width: max-content; }
+    .Recovery-div .title {
+      margin: 0px;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 32px;
+      line-height: 44px;
+      color: #000000;
+      text-align: center; }
+    .Recovery-div .form_label {
+      text-align: left;
+      font-size: 14px;
+      line-height: 22px; }
+  
+  .register-div {
+    font-family: Nunito;
+    margin-top: 64px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 490px;
+    width: 400px;
+    text-align: left; }
+    .register-div .register-form ul {
+      list-style: none;
+      padding: 0px; }
+    .register-div .title {
+      margin: 0px;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 32px;
+      line-height: 44px;
+      color: #000000;
+      margin-bottom: 14px; }
+    .register-div .entry {
+      margin: 6px 0px; }
+    .register-div .form_label {
+      text-align: left;
+      font-size: 14px;
+      line-height: 22px;
+      color: #262626; }
+    .register-div .form_sublabel {
+      font-size: 14px;
+      line-height: 22px;
+      color: #8c8c8c;
+      flex: none;
+      order: 2;
+      align-self: flex-start;
+      margin: 0px 2px; }
+    .register-div .form_input {
+      font-family: Nunito;
+      background: #ffffff;
+      border: 1px solid #d9d9d9;
+      box-sizing: border-box;
+      border-radius: 4px;
+      width: -webkit-fill-available;
+      font-size: 16px;
+      padding: 8px 12px; }
+    .register-div .form_input_ta {
+      font-family: Nunito;
+      background: #ffffff;
+      border: 1px solid #d9d9d9;
+      box-sizing: border-box;
+      border-radius: 4px;
+      width: -webkit-fill-available;
+      font-size: 16px;
+      padding: 8px 12px;
+      resize: none; }
+    .register-div .Radio_subtitle {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 22px;
+      color: #000000; }
+    .register-div .radio_label {
+      font-size: 14px;
+      line-height: 22px;
+      color: #595959;
+      flex: none;
+      order: 1;
+      align-self: center;
+      margin: 8px 0px; }
+    .register-div .form_btn {
+      background: #ffffff;
+      border: 1px solid #3c2dff;
+      box-sizing: border-box;
+      margin: 10px 0px;
+      width: 140px;
+      height: 40px;
+      color: #3c2dff;
+      font-size: 16px;
+      line-height: 24px; }
+    .register-div .RadioGroup {
+      margin-top: 4px; }
+    .register-div .Checkbox_text {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 13px;
+      color: #595959;
+      margin: 8px 0px; }
+  
+  @media screen and (max-width: 425px) {
+    .register-div {
+      margin: 0px auto; }
+    .title {
+      margin: 0px;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 32px;
+      line-height: 44px;
+      color: #000000;
+      margin-bottom: 14px;
+      text-align: center; }
+    .form_btn {
+      position: relative;
+      left: 32%; } }
