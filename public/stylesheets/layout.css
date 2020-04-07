@@ -70,18 +70,3 @@ section {
     font-size: 14px;
     line-height: 19px;
     color: #73738d; }
-
-.hero-btn {
-  width: 217px;
-  padding: 10px 9px;
-  text-align: center;
-  text-transform: uppercase;
-  background: #3c2dff;
-  border: 2px solid #3c2dff;
-  box-sizing: border-box;
-  border-radius: 4px;
-  font-size: 13px;
-  line-height: 18px;
-  color: #ffffff;
-  text-decoration: none;
-  font-weight: 800; }

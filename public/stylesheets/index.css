@@ -29,6 +29,21 @@
 .hero-img {
   grid-area: img;
 }
+.hero-btn {
+  width: 217px;
+  padding: 10px 9px;
+  text-align: center;
+  text-transform: uppercase;
+  background: #3c2dff;
+  border: 2px solid #3c2dff;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 13px;
+  line-height: 18px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 800; 
+}
 
 @media screen and (max-width: 768px) {
   .hero {
@@ -107,8 +122,12 @@
 }
 .target-detail-title {
   font-size: 20px;
+  font-weight: 600;
   line-height: 27px;
   color: #718096;
+}
+.target-detail-title:hover{
+  color: #4a525f;
 }
 .target-detail-place {
   display: flex;
@@ -240,6 +259,7 @@
   padding: 13px 0px 12px 24px;
 }
 
+
 .contact-form textarea {
   height: 150px;
 }
@@ -253,6 +273,24 @@
   border-radius: 5px;
 }
 @media screen and (max-width: 768px) {
+
+.contact-form textarea{
+    height: 150px;
+}
+.btn-contact-submit{
+    height: 60px;
+    width: 197px;
+    background: #000000;
+    color: #ffffff;
+    font-size: 15px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+.btn-contact-submit:hover{
+  background: #ffffff;
+  color: #000000;
+}
+@media screen and (max-width:768px){
   .contact {
     grid-template-columns: 1fr 1fr;
   }
