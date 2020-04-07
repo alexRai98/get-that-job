@@ -30,7 +30,6 @@
     border: none;
     font-size: 13px;
     line-height: 18px;
-    color: #4A5568;
     background: white;
     padding: 7.5px 10px ;
 }
@@ -39,7 +38,7 @@
     margin: 2.5px 10px;
 }
 
-#search-box input[type="text"] {
+#search-box input {
     border: none;
     color: #4A5568;
     font-size: 13px;
