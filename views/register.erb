@@ -10,7 +10,7 @@
               <label class="form_label" for="Name">Name</label>
             </li>
             <li>
-              <input class="form_input" type="text" id="Name" name="Name" placeholder="Large Input" />
+              <input class="form_input" type="text" id="Name" name="Name" placeholder="Large Input" required/>
             </li>
             <li>
               <label class="form_sublabel" for="Name">Use your real first and last name</label>
@@ -27,6 +27,7 @@
                 id="Professional_Description"
                 name="Professional_Description"
                 placeholder="e.g Software Engineer, Mememaster, Pokemaster"
+                required
               />
             </li>
             <li>
@@ -46,6 +47,7 @@
                 cols="30"
                 rows="5"
                 placeholder="Worked 6 years in a bitcoin farm until I decided to change my life...."
+                required
               ></textarea>
             </li>
             <li>
@@ -79,7 +81,7 @@
             </li>
             <li>
               <div class="RadioGroup">
-                <input class="radio_state" type="radio" id="Full-Time" name="work_type" />
+                <input class="radio_state" type="radio" id="Full-Time" name="work_type" required/>
                 <label class="radio_label" for="Full-Time">Full-Time</label>
                 <input class="radio_state" type="radio" id="Part-Time" name="work_type" />
                 <label class="radio_label" for="Part-Time">Part-Time</label>
@@ -94,7 +96,7 @@
               <label for="dad_jokes" class="Checkbox_text">I wish to receive regular dad jokes in my email</label>
             </li>
             <li>
-              <input type="checkbox" id="data_selling" />
+              <input type="checkbox" id="data_selling" required/>
               <label for="data_selling" class="Checkbox_text"
                 >I wish that you sell my data and give me nothing in exchange</label
               >

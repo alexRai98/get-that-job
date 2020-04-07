@@ -1,0 +1,102 @@
+section {
+  min-height: 320px;
+}
+
+.layout_body {
+  margin: 0;
+  padding: 0;
+  .layout_nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    max-width: 1030px;
+    padding: 0px 12vw;
+    position: sticky;
+    top: 0;
+    background: #ffffff;
+    .nav_links {
+      display: table;
+      position: relative;
+      left: 170px;
+      .nLinks {
+        color: black;
+        font-weight: bold;
+        padding: 0px 5px;
+        text-decoration: none;
+        display: table-cell;
+        vertical-align: middle;
+      }
+    }
+    .nav_account {
+      font-family: Nunito;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 13px;
+      font-weight: 900;
+
+      .aLinks {
+        color: #000000;
+        text-decoration: none;
+        border: 2px solid #000000;
+        box-sizing: border-box;
+        border-radius: 4px;
+        padding: 5px 10px;
+        margin-left: 20px;
+      }
+      .aLinks:last-child {
+        border: 2px solid #3c2dff;
+        padding: 5px 10px;
+        margin-left: 10px;
+        color: #3c2dff;
+      }
+    }
+  }
+  .Layout_footer {
+    max-width: 1030px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+    .footer_list {
+      display: flex;
+      flex-direction: column;
+      .fLink {
+        text-decoration: none;
+        margin-top: 8px;
+        font-size: 14px;
+        line-height: 19px;
+        color: #7a7a7a;
+      }
+      .fLink:last-child {
+        color: #ad00ff;
+      }
+      .list_title {
+        font-size: 18px;
+        line-height: 25px;
+        color: #000000;
+      }
+    }
+  }
+  .copyright {
+    text-align: center;
+    font-size: 14px;
+    line-height: 19px;
+    color: #73738d;
+  }
+}
+.hero-btn {
+  width: 217px;
+  padding: 10px 9px;
+  text-align: center;
+  text-transform: uppercase;
+  background: #3c2dff;
+  border: 2px solid #3c2dff;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 13px;
+  line-height: 18px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 800;
+}
