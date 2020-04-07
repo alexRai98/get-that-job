@@ -29,16 +29,24 @@
 .hero-img {
   grid-area: img;
 }
-.hero-btn{
+.hero-btn {
   width: 217px;
-  padding: 10px 10px;
-  font-size: 13px;
+  padding: 10px 9px;
   text-align: center;
   text-transform: uppercase;
+  background: #3c2dff;
+  border: 2px solid #3c2dff;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 13px;
+  line-height: 18px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 800; 
 }
 
-@media screen and (max-width:768px){
-  .hero{
+@media screen and (max-width: 768px) {
+  .hero {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: "about about img";
   }
@@ -48,10 +56,10 @@
     object-fit: cover;
   }
 }
-@media screen and (max-width:425px){
-  .hero{
+@media screen and (max-width: 425px) {
+  .hero {
     grid-template-columns: 1fr;
-    grid-template-areas: "img""about";
+    grid-template-areas: "img" "about";
   }
   .hero-img {
     height: 300px;
@@ -94,11 +102,12 @@
   display: flex;
   align-items: center;
   background: #ffffff;
-  height: 82px; 
+  height: 82px;
   width: 447px;
   padding-right: 15px;
 }
-.findJob-target-empresa , .findJob-target-tecno{
+.findJob-target-empresa,
+.findJob-target-tecno {
   display: flex;
   align-items: center;
 }
@@ -138,18 +147,18 @@
   font-size: 16px;
   color: #718096;
 }
-@media screen and (max-width:768px){
+@media screen and (max-width: 768px) {
   .findJob {
     grid-template-columns: 1fr;
-    grid-template-areas: "description"
-                          "target";
+    grid-template-areas:
+      "description"
+      "target";
     grid-gap: 20px 0px;
   }
-  .findJob-target{
+  .findJob-target {
     width: auto;
     justify-content: space-between;
   }
-  
 }
 /* sectionTestimonies */
 .container {
@@ -185,12 +194,12 @@
   line-height: 24px;
   font-weight: normal;
 }
-@media screen and (max-width:425px){
-  .testimonies-title{
+@media screen and (max-width: 425px) {
+  .testimonies-title {
     font-size: 26px;
     line-height: 30px;
   }
-  .br{
+  .br {
     display: none;
   }
 }
@@ -209,30 +218,29 @@
   grid-area: info;
   display: flex;
   flex-direction: column;
-  
 }
-.contact-referen{
+.contact-referen {
   grid-area: referen;
   display: flex;
   align-items: flex-end;
 }
-.contact-span{
-    text-transform: uppercase;
-    font-size: 13px;
-    color: #999999;
-    margin-bottom: 8px;
+.contact-span {
+  text-transform: uppercase;
+  font-size: 13px;
+  color: #999999;
+  margin-bottom: 8px;
 }
-.contact-title{
-    font-size: 46px;
-    margin-bottom: 11px;
+.contact-title {
+  font-size: 46px;
+  margin-bottom: 11px;
 }
-.contact-subtitle{
-    font-size: 15px;
+.contact-subtitle {
+  font-size: 15px;
 }
-.contact-email{
-    font-size: 16px;
-    font-weight: normal;
-    line-height: 24px;
+.contact-email {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 24px;
 }
 .contact-form {
   grid-area: form;
@@ -240,7 +248,8 @@
   flex-direction: column;
 }
 
-.contact-form input,.contact-form textarea {
+.contact-form input,
+.contact-form textarea {
   border: 1px solid #666666;
   border-radius: 5px;
   height: 60px;
@@ -249,6 +258,21 @@
   margin-bottom: 16px;
   padding: 13px 0px 12px 24px;
 }
+
+
+.contact-form textarea {
+  height: 150px;
+}
+.btn-contact-submit {
+  height: 60px;
+  width: 197px;
+  background: #000000;
+  color: #ffffff;
+  font-size: 15px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+@media screen and (max-width: 768px) {
 
 .contact-form textarea{
     height: 150px;
@@ -271,15 +295,15 @@
     grid-template-columns: 1fr 1fr;
   }
 }
-@media screen and (max-width:425px){
+@media screen and (max-width: 425px) {
   .contact {
     grid-template-columns: 1fr;
     grid-template-areas: "info" "form" "referen";
   }
-  .contact-information{
+  .contact-information {
     margin-bottom: 25px;
   }
-  .contact-referen{
+  .contact-referen {
     margin-top: 25px;
   }
 }
