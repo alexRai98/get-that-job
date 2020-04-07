@@ -113,8 +113,12 @@
 }
 .target-detail-title {
   font-size: 20px;
+  font-weight: 600;
   line-height: 27px;
   color: #718096;
+}
+.target-detail-title:hover{
+  color: #4a525f;
 }
 .target-detail-place {
   display: flex;
@@ -257,6 +261,10 @@
     font-size: 15px;
     border: 1px solid #000000;
     border-radius: 5px;
+}
+.btn-contact-submit:hover{
+  background: #ffffff;
+  color: #000000;
 }
 @media screen and (max-width:768px){
   .contact {

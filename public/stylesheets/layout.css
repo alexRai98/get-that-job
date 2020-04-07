@@ -96,9 +96,13 @@ a {
 .button {
     font-weight: bold;
     background: #3C2DFF;
+    border: 1px solid #3C2DFF;
     padding: 10px 50px;
     margin: 15px 0;
     color: white;
+}
+.button:hover{
+    background: rgb(108, 98, 236);
 }
 
 .tag {
