@@ -3,23 +3,26 @@
 </head>
 <main>
     <h2>Jobs for you</h2>
-    <header>
+    <header id="filters">
         <div>
-          <input type="text" placeholder="Find that job!">
-          <select name="country" id="country">
+          <div id="search-box">
+            <img src="images/magnifying-glass.png" alt="Magnifying glass.">
+            <input type="text" placeholder="Find that job!">
+          </div>
+          <select class="qualifier" name="country" id="country">
               <option value="">Country</option>
           </select>
-          <select name="type" id="type">
+          <select class="qualifier" name="type" id="type">
               <option value="">Type</option>
           </select>
-          <select name="salary-range" id="salary-range">
+          <select class="qualifier" name="salary-range" id="salary-range">
               <option value="">Salary Range</option>
           </select>
-          <select name="more" id="more">
+          <select class="qualifier" name="more" id="more">
               <option value="">More</option>
           </select>
         </div>
-        <div>
+        <div id="sort-box">
             <p>Recommended</p><img src="images/down.png" alt="Down arrow.">
         </div>
     </header>
@@ -29,7 +32,7 @@
             <img src="images/able.png" alt="Able's logo.">
             <div>
                 <div class="job-summary-line">
-                    <p>Software Engineer</p><a href="" class="tag tag--red">NEW</a>
+                    <p>Software Engineer</p><a href="" class="tag tag--color-red">NEW</a>
                 </div>
                 <div class="job-summary-line">
                     <p><strong>Able - Lima</strong></p><img src="images/peru.png" alt="">
@@ -45,8 +48,6 @@
         </div>
     </section>
     <section id="load-more">
-        <a href="" class="button">
-            Load more
-        </a>
+        <a href="" class="button">Load more</a>
     </section>
 </main>
