@@ -1,3 +1,6 @@
+.height{
+    min-height: 400px ;
+}
 .login-div {
     margin-top: 132px;
     margin-left: auto;
@@ -25,7 +28,14 @@
       font-size: 16px;
       line-height: 24px;
       width: 256px; }
-    .login-div .form_btn {
+    /* .login-div .form_btn {
+      text-align: center;
+      display: block;
+      font-weight: normal;
+      width: 256px;
+      font-size: 16px;
+      margin: 4px 0px; } */
+      .login-div .form_btn {
       text-align: center;
       width: -webkit-fill-available;
       height: 40px;
@@ -35,7 +45,8 @@
       font-size: 16px;
       line-height: 24px;
       color: #ffffff;
-      margin: 4px 0px; }
+      margin: 4px 0px;
+      }
     .login-div .form_link {
       text-align: center;
       margin: 0px auto;
@@ -156,9 +167,9 @@
   .register-div {
     font-family: Nunito;
     margin-top: 64px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 490px;
+    /* margin-left: auto; */
+    /*margin-right: auto; */
+    margin-bottom: 60px;
     width: 400px;
     text-align: left; }
     .register-div .register-form ul {
