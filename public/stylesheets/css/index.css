@@ -168,6 +168,7 @@
 }
 /* sectionTestimonies */
 .container {
+  background: #ffffff;
   font-family: "Overpass", sans-serif;
   display: grid;
   grid-template-columns: minmax(auto, 1090px);
