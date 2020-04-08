@@ -5,7 +5,6 @@
   box-sizing: border-box; }
 
 body {
-  width: 1440px;
   margin: auto; }
 
 a {
@@ -79,7 +78,8 @@ img {
   align-items: center;
   justify-content: space-between;
   margin: auto;
-  height: 100px; }
+  height: 100px;
+  max-width: 100%; }
   #p-layout > nav #tabs {
     display: none; }
     @media screen and (min-width: 769px) {

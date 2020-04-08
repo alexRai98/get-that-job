@@ -6,7 +6,6 @@
 }
 
 body {
-    width: 1440px;
     margin: auto;
 
 }
@@ -102,6 +101,7 @@ img {
         justify-content: space-between;
         margin: auto;
         height: 100px;
+        max-width: 100%;
         #tabs {
             display: none;
             @media screen and (min-width: 769px) {
