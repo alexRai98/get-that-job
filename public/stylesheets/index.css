@@ -1,6 +1,7 @@
-@import url("https://fonts.googleapis.com/css?family=Nunito:400,700|Overpass:400,700&display=swap");
-.landing {
-  font-family: "Nunito", sans-serif;
+*{
+  box-sizing: border-box;
+  margin:0 ;
+  padding: 0;
 }
 .hero {
   display: grid;
@@ -37,12 +38,15 @@
   background: #3c2dff;
   border: 2px solid #3c2dff;
   box-sizing: border-box;
-  border-radius: 4px;
   font-size: 13px;
   line-height: 18px;
   color: #ffffff;
   text-decoration: none;
   font-weight: 800; 
+}
+.hero-btn:hover{
+  color: #3c2dff;
+  background: #ffffff;
 }
 
 @media screen and (max-width: 768px) {
@@ -105,6 +109,7 @@
   height: 82px;
   width: 447px;
   padding-right: 15px;
+  justify-content: space-between;
 }
 .findJob-target-empresa,
 .findJob-target-tecno {
@@ -118,13 +123,14 @@
 .target-detail {
   display: flex;
   flex-direction: column;
-  margin-right: 42px;
+  
 }
 .target-detail-title {
   font-size: 20px;
   font-weight: 600;
   line-height: 27px;
   color: #718096;
+  text-decoration: none;
 }
 .target-detail-title:hover{
   color: #4a525f;
@@ -272,7 +278,7 @@
   border: 1px solid #000000;
   border-radius: 5px;
 }
-@media screen and (max-width: 768px) {
+
 
 .contact-form textarea{
     height: 150px;
@@ -289,7 +295,9 @@
 .btn-contact-submit:hover{
   background: #ffffff;
   color: #000000;
+  cursor: pointer;
 }
+
 @media screen and (max-width:768px){
   .contact {
     grid-template-columns: 1fr 1fr;
