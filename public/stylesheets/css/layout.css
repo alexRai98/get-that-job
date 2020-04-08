@@ -79,7 +79,10 @@ img {
   justify-content: space-between;
   margin: auto;
   height: 100px;
-  max-width: 100%; }
+  padding: 0px 100px; }
+  @media screen and (max-width: 769px) {
+    #p-layout > nav {
+      padding: 0 10px; } }
   #p-layout > nav #tabs {
     display: none; }
     @media screen and (min-width: 769px) {
@@ -102,12 +105,16 @@ img {
 #p-layout > footer {
   display: flex;
   justify-content: space-between;
-  padding: 0px 208px; }
+  padding: 50px 100px; }
+  @media screen and (max-width: 769px) {
+    #p-layout > footer {
+      padding: 25px 10px;
+      flex-direction: column;
+      align-items: center;
+      text-align: center; } }
   #p-layout > footer div a {
     color: #7A7A7A; }
 #p-layout > aside {
-  display: flex;
-  justify-content: center;
-  padding: 0px 208px; }
+  text-align: center; }
 
 /*# sourceMappingURL=layout.css.map */
