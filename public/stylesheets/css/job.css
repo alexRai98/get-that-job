@@ -1,5 +1,12 @@
 main {
     display: flex;
+    padding: 20px 100px;
+}
+
+@media screen and (max-width: 784px) {
+    main {
+        flex-direction: column;
+    }
 }
 
 #back {
