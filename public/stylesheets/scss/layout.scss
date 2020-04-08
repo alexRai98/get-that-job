@@ -150,3 +150,30 @@ img {
         text-align: center;
     }
 }
+
+.separator {
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+.button {
+    font-weight: bold;
+    background: #3C2DFF;
+    padding: 10px 50px;
+    margin: 15px 0;
+    color: white;
+}
+
+.tag {
+    margin-right: 5px;
+    padding: 3px 4px;
+    color: white;
+    background: #3C2DFF;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.tag--color-red {
+    background: #FF0D0D;
+}
