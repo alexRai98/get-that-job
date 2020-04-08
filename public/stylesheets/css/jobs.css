@@ -1,3 +1,6 @@
+main {
+    padding: 20px 100px;
+}
 #filters {
     display: flex;
     justify-content: space-between;
@@ -106,4 +109,14 @@
 #load-more {
     display: flex;
     justify-content: center;
+}
+
+@media screen and (max-width: 798px) {
+    #filters {
+        flex-wrap: wrap;
+    }
+    #filters > div {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }

@@ -108,10 +108,9 @@ img {
   padding: 50px 100px; }
   @media screen and (max-width: 769px) {
     #p-layout > footer {
+      flex-wrap: wrap;
       padding: 25px 10px;
-      flex-direction: column;
-      align-items: center;
-      text-align: center; } }
+      align-items: center; } }
   #p-layout > footer div a {
     color: #7A7A7A; }
 #p-layout > aside {
