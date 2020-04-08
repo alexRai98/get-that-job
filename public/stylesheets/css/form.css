@@ -82,6 +82,8 @@
   box-sizing: border-box;
   border-radius: 4px;
   font-size: 16px;
+  height: 40px;
+  padding: 8px 12px;
   line-height: 24px;
   width: 256px;
 }
@@ -135,6 +137,8 @@
   border: 1px solid #d9d9d9;
   box-sizing: border-box;
   border-radius: 4px;
+  height: 40px;
+  padding: 8px 12px;
   font-size: 16px;
   line-height: 24px;
   width: 256px;
