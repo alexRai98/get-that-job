@@ -1,71 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700|Overpass:400,700&display=swap");
+
+body{
+    font-family: "Nunito", sans-serif;
+}
 section {
   min-height: 320px; }
 
 .layout_body {
   margin: 0;
   padding: 0; }
-  .layout_body .layout_nav {
+   .layout_nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 100px;
-    max-width: 1030px;
     padding: 0px 12vw;
     position: sticky;
     top: 0;
     background: #ffffff; }
-    .layout_body .layout_nav .nav_links {
-      display: table;
-      position: relative;
-      left: 170px; }
-      .layout_body .layout_nav .nav_links .nLinks {
+     .nav_links {
+      display: flex;
+      }
+      .nav_links li{
+          list-style: none;
+      }
+        .nLinks {
         color: black;
         font-weight: bold;
         padding: 0px 5px;
         text-decoration: none;
         display: table-cell;
         vertical-align: middle; }
-    .layout_body .layout_nav .nav_account {
-      font-family: Nunito;
+     .layout_nav .nav_account {
       text-align: center;
       text-transform: uppercase;
       font-size: 13px;
       font-weight: 900; }
-      .layout_body .layout_nav .nav_account .aLinks {
+       .aLinks {
         color: #000000;
         text-decoration: none;
         border: 2px solid #000000;
-        box-sizing: border-box;
         border-radius: 4px;
         padding: 5px 10px;
         margin-left: 20px; }
-      .layout_body .layout_nav .nav_account .aLinks:last-child {
+        .aLinks:hover{
+        color: #ffffff;
+        background: #000000;
+        }
+       .aLinksA {
+        text-decoration: none;
         border: 2px solid #3c2dff;
+        border-radius: 4px;
         padding: 5px 10px;
         margin-left: 10px;
         color: #3c2dff; }
-  .layout_body .Layout_footer {
+        .aLinksA:hover{
+        color: #ffffff;
+        background: #3c2dff;
+        }
+   .Layout_footer {
     max-width: 1030px;
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
     margin: 0px auto; }
-    .layout_body .Layout_footer .footer_list {
+     .Layout_footer .footer_list {
       display: flex;
       flex-direction: column; }
-      .layout_body .Layout_footer .footer_list .fLink {
+       .Layout_footer .footer_list .fLink {
         text-decoration: none;
         margin-top: 8px;
         font-size: 14px;
         line-height: 19px;
         color: #7a7a7a; }
-      .layout_body .Layout_footer .footer_list .fLink:last-child {
+       .Layout_footer .footer_list .fLink:last-child {
         color: #ad00ff; }
-      .layout_body .Layout_footer .footer_list .list_title {
+       .Layout_footer .footer_list .list_title {
         font-size: 18px;
         line-height: 25px;
         color: #000000; }
-  .layout_body .copyright {
+   .copyright {
     text-align: center;
     font-size: 14px;
     line-height: 19px;

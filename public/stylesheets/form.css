@@ -54,7 +54,6 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0px;
-  font-family: Nunito;
   width: min-content; }
   .signup-div .title {
     margin: 0px;
@@ -220,14 +219,9 @@
       border-radius: 4px;
       font-size: 16px;
       line-height: 24px;
-      width: 256px; }
-    /* .login-div .form_btn {
-      text-align: center;
-      display: block;
-      font-weight: normal;
-      width: 256px;
-      font-size: 16px;
-      margin: 4px 0px; } */
+      width: 256px; 
+      height: 40px;
+      padding-left: 12px;}
       .login-div .form_btn {
       text-align: center;
       width: -webkit-fill-available;
@@ -250,20 +244,7 @@
       text-decoration: none;
       margin-top: 8px; }
   
-  .signup-div {
-    margin-top: 132px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0px;
-    font-family: Nunito;
-    background: #ffffff;
-    border: 1px solid #d9d9d9;
-    box-sizing: border-box;
-    border-radius: 4px;
-    width: -webkit-fill-available;
-    font-size: 16px;
-    padding: 8px 12px;
-    resize: none; }
+  
   .register-div .Radio_subtitle {
     font-style: normal;
     font-weight: normal;
@@ -299,11 +280,9 @@
 
 @media screen and (max-width: 425px) {
   .register-div {
-    margin: 0px auto; }
+    margin: 0px auto;
     font-family: Nunito;
     margin-top: 64px;
-    /* margin-left: auto; */
-    /*margin-right: auto; */
     margin-bottom: 60px;
     width: 400px;
     text-align: left; }
@@ -321,4 +300,5 @@
       text-align: center; }
     .register-div .form_btn {
       position: relative;
-      left: 32%; } }
+      left: 32%; } 
+    }
