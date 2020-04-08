@@ -1,0 +1,64 @@
+#index #hero {
+  background-color: #F7FAFC;
+  display: flex; }
+  @media screen and (max-width: 768px) {
+    #index #hero {
+      flex-direction: column; } }
+  #index #hero > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; }
+#index #lead {
+  background-color: #3C2DFF;
+  display: flex; }
+  #index #lead #description p {
+    color: white; }
+  #index #lead #description h2 {
+    color: white; }
+  #index #lead #featured-jobs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; }
+#index #testimonies {
+  display: flex;
+  justify-content: space-between; }
+  #index #testimonies #testimony {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; }
+#index #contact {
+  display: flex;
+  justify-content: space-between;
+  background-color: #F7FAFC; }
+  #index #contact #information {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column; }
+    #index #contact #information p {
+      text-transform: uppercase;
+      color: #999999; }
+  #index #contact form {
+    display: flex;
+    flex-direction: column; }
+    #index #contact form input, #index #contact form textarea {
+      border: 1px solid #666666;
+      border-radius: 5px;
+      font-size: 16px;
+      color: #7a7a7a;
+      margin-bottom: 16px;
+      padding: 13px 0px 12px 24px; }
+    #index #contact form button {
+      height: 60px;
+      width: 197px;
+      background: #000000;
+      color: #ffffff;
+      font-size: 15px;
+      border: 1px solid #000000;
+      border-radius: 5px; }
+      #index #contact form button i {
+        color: white;
+        margin-right: 5px; }
+
+/*# sourceMappingURL=index.css.map */

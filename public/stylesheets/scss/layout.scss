@@ -1,0 +1,139 @@
+* {
+    font-family: "Nunito";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-size: 46px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 18px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+main {
+    background-color: #F7FAFC;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.g-job {
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.06);
+    padding: 10px;
+    #logo {
+        margin-right: 10px;
+    }
+    #summary {
+        display: flex;
+        flex-direction: column;
+        #location {
+            display: flex;
+            align-items: center;
+            img {
+                margin-left: 3px;
+            }
+        }
+    }
+    #tags {
+        margin-left: auto;
+        display: flex;
+        align-items: center;
+        * {
+            margin: 0 5px;
+        }
+    }
+}
+
+.g-button {
+    color: white;
+    background-color: #3C2DFF;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 10px 20px;
+}
+
+#p-layout {
+    > nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: auto;
+        height: 100px;
+        #tabs {
+            display: none;
+            @media screen and (min-width: 769px) {
+                display: flex;
+            }
+            a {
+              font-weight: bold;
+              margin-left: 20px;
+            }
+            a:nth-child(n + 4) {
+                border: 2px solid black;
+                border-radius: 4px;
+                text-transform: uppercase;
+                padding: 0 10px;
+            }
+            a:last-child {
+                color: #3C2DFF;
+                border-color: #3C2DFF;
+            }
+        }
+        #collapse {
+            @media screen and (min-width: 769px) {
+                display: none;
+            }
+        }
+    }
+    > footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 208px;
+        div {
+            a {
+                color: #7A7A7A;
+            }
+        }
+    }
+    > aside {
+        display: flex;
+        justify-content: center;
+        padding: 0px 208px;
+    }
+}
