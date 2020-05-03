@@ -1,0 +1,108 @@
+<head>
+    <link rel="stylesheet" href="stylesheets/css/form.css">
+</head>
+<section class="register-div">
+      <h3 class="title">Complete your signup</h3>
+      <form class="register-form" action="#">
+        <ul>
+          <ul class="entry">
+            <li>
+              <label class="form_label" for="Name">Name</label>
+            </li>
+            <li>
+              <input class="form_input" type="text" id="Name" name="Name" placeholder="Large Input" required/>
+            </li>
+            <li>
+              <label class="form_sublabel" for="Name">Use your real first and last name</label>
+            </li>
+          </ul>
+          <ul class="entry">
+            <li>
+              <label class="form_label" for="Professional_Description">Professional Description</label>
+            </li>
+            <li>
+              <input
+                class="form_input"
+                type="text"
+                id="Professional_Description"
+                name="Professional_Description"
+                placeholder="e.g Software Engineer, Mememaster, Pokemaster"
+                required
+              />
+            </li>
+            <li>
+              <label class="form_sublabel" for="Professional_Description"
+                >Short an specific text about what you do</label
+              >
+            </li>
+          </ul>
+          <ul class="entry">
+            <li><label class="form_label" for="Work_Experience">Work Experience</label></li>
+            <li>
+              <textarea
+                class="form_input_ta"
+                type="text"
+                id="Work_Experience"
+                name="Work_Experience"
+                cols="30"
+                rows="5"
+                placeholder="Worked 6 years in a bitcoin farm until I decided to change my life...."
+                required
+              ></textarea>
+            </li>
+            <li>
+              <label class="form_sublabel" for="Work_Experience"
+                >Tells us about your work experience, what did you do before joining this top community?</label
+              >
+            </li>
+          </ul>
+          <ul class="entry">
+            <li><label class="form_label" for="joke">Tell us a joke</label></li>
+            <li>
+              <textarea
+                class="form_input_ta"
+                type="text"
+                id="joke"
+                name="joke"
+                cols="30"
+                rows="5"
+                placeholder="Q: Why do chemists enjoy working with ammonia? A: Because it's pretty basic stuff."
+              ></textarea>
+            </li>
+            <li>
+              <label class="form_sublabel" for="joke"
+                >Tells us about your work experience, what did you do before joining this top community?</label
+              >
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <span class="Radio_subtitle">Work Type preference</span>
+            </li>
+            <li>
+              <div class="RadioGroup">
+                <input class="radio_state" type="radio" id="Full-Time" name="work_type" required/>
+                <label class="radio_label" for="Full-Time">Full-Time</label>
+                <input class="radio_state" type="radio" id="Part-Time" name="work_type" />
+                <label class="radio_label" for="Part-Time">Part-Time</label>
+                <input class="radio_state" type="radio" id="Contract" name="work_type" />
+                <label class="radio_label" for="Contract">Contract</label>
+                <input class="radio_state" type="radio" id="For Free" name="work_type" />
+                <label class="radio_label" for="For Free">For Free</label>
+              </div>
+            </li>
+            <li>
+              <input type="checkbox" id="dad_jokes" />
+              <label for="dad_jokes" class="Checkbox_text">I wish to receive regular dad jokes in my email</label>
+            </li>
+            <li>
+              <input type="checkbox" id="data_selling" required/>
+              <label for="data_selling" class="Checkbox_text"
+                >I wish that you sell my data and give me nothing in exchange</label
+              >
+            </li>
+          </ul>
+        </ul>
+        <input class="form_btn" type="submit" value="Create Account" />
+      </form>
+    </section>

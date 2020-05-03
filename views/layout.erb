@@ -1,30 +1,61 @@
-<!doctype html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Get the job</title>
-  <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="stylesheets/layout.css">
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<header>
-  <nav class="nav">
-    <img class="logo" src="images/logo.png" alt="GetThatJob's logo.">
-    <div class="menu">
-      <a class="menu__link" href="">Help</a>
-      <a class="menu__link" href="">Companies</a>
-      <a class="menu__link" href="">Jobs</a>
-      <a class="menu__button" href="">Sign in</a>
-      <a class="menu__button menu__button--purple" href="">Create an account</a>
-    </div>
-  </nav>
-</header>
-<body>
-  <%= yield %>
-  <section>
-    <h3>Hola layout </h3>
-  </section>
-</body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheets/css/layout.css">
+    <link rel="stylesheet" href="stylesheets/css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/323de7c654.js" crossorigin="anonymous"></script>
+    <title>Get the job!</title>
+  </head>
+  <body id="p-layout">
+    <nav>
+      <a href="index"><img src="images/logo.png" alt="GetThatJob's logo."></a>
+      <div id="tabs">
+        <a href="faq">Help</a>
+        <a href="jobs">Companies</a>
+        <a href="jobs">Jobs</a>
+        <a href="sign-in">Sign in</a>
+        <a href="sign-up">Create an account</a>
+      </div>
+      <div id="collapse">
+        <i class="fas fa-bars fa-2x"></i>
+      </div>
+    </nav>
+    <%= yield %>
+    <footer>
+      <div>
+        <h6>Jobs</h6>
+        <a href="">Software Engineer</a>
+        <a href="">Frontend Engineer</a>
+        <a href="">Codeable Engineer</a>
+        <a href="">Backend Engineer</a>
+        <a href="">Meme Master</a>
+        <a href="index">University Dropout</a>
+      </div>
+      <div>
+        <h6>Company</h6>
+        <a href="">Blog</a>
+        <a href="">Careers</a>
+        <a href="">Privacy</a>
+        <a href="index">About</a>
+      </div>
+      <div>
+        <h6>Support</h6>
+        <a href="">Documentation</a>
+        <a href="">Security</a>
+        <a href="">Mobility Guide</a>
+        <a href="faq">FAQs</a>
+      </div>
+      <div>
+        <h6>Legal</h6>
+        <a href="">Terms of Service</a>
+        <a href="">Privacy Policy</a>
+        <a href="">Cookie Information</a>
+        <a href="index">GDPR Commitment</a>
+      </div>
+    </footer>
+    <aside>©2020 Get That Job</p>
+  </body>
 </html>
